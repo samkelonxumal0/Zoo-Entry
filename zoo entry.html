@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Zoo Entry Form</title>
+    <link rel="stylesheet" href="C:\Users\Students\Desktop\SamSAm\SAMKELO\Untitled-1.css">
+</head>
+
+<body background="../SAMKELO/giphy.gif">
+    <div class="container">
+        <h2>Zoo Entry Form</h2>
+        <form id="zooForm">
+            <div class="form-group">
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" min="0" required>
+            </div>
+            <div id="quantityBlock" style="display: none;" class="form-group">
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" value="1">
+            </div>
+            <div class="form-group">
+                <label for="price">Price:</label>
+                <input type="text" id="price" name="price" readonly>
+            </div>
+            <input type="submit" value="Calculate Price">
+        </form>
+    </div>
+
+    <script src="../SAMKELO/JAVA.SCRIPT.js"></script>
+</body>
+</html>
